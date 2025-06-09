@@ -39,3 +39,19 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+let dietCategory;
+userType = "Subscriber";
+switch (userType) {
+    case "Employee":
+        dietCategory = "Authorized for Dietary Services";
+        break;
+    case "Enrolled Member":
+        dietCategory = "Authorized for Dietary Services and Dietician";
+        break;
+    case "Subscriber":
+        dietCategory = "Partially Authorized for Dietary Services";
+        break;
+    default:
+        dietCategory = "Need to enroll or subscribe for authorization";
+}
+console.log(dietCategory);
