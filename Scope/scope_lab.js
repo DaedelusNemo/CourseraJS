@@ -9,11 +9,20 @@ const globalConst = "I'm a global constant";
 var blockVar = "I'm a block-scoped var";
 let blockLet = "I'm a block-scoped let";
 const blockConst = "I'm a block-scoped const";
+blockVar = "I was a blockscoped var but I changed";
+blockLet = "I was a blocklet but I changed";
+console.log(blockVar);
+console.log(blockLet);
+console.log(blockConst);
 }
+
+//blockVar = "I was a blockscoped var but I changed outside the block";
+//blockLet = "I was a blocklet but I changed outside the block";
+console.log(blockVar);
+//console.log(blockLet);
 // Global scope
 console.log(globalVar); // Output: "I'm a global variable"
 console.log(globalLet); // Output: "I'm also global, but scoped with let"
-console.log(globalConst); // Output: "I'm a global constant"
 //Block Scope
 //console.log(blockVar);
 //console.log(blockLet);
