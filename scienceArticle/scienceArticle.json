@@ -1,0 +1,34 @@
+{
+    "articles": [
+      {
+        "title": "Annealing with Sulfate lasers",
+        "description": "This article discusses working with Sulfate lasers.",
+        "capabilities": [
+          "Single-crystal formation on visible scales.",
+          "Infinitely smooth transitions between polarization regions.",
+          "Intense cleaning of appendages caught in beam."
+        ],
+        "requirements": [
+          "Maintainance of temperature and concentration of sulfate tank.",
+          "Annealing material of uniform thickness on micrometer scale.",
+          "Homogenous, phase-locked beam characterized by 0-0 beam mode.",
+          "Desired appendages kept out of beam."
+        ]
+      },
+      {
+        "title": "Slow-Roll Annealing with Tiny Monkeys",
+        "description": "How to utilize slow-roll annealing with the aid of tiny monkeys.",
+        "capabilities": [
+          "Annealing over flexible time scales.",
+          "Consistent grain size and directional growth over a range from millimeter scale to several orders of magnitude smaller.",
+          "Minimal monkey seepage."
+        ],
+        "requirements": [
+          "Self-sustaining population of tiny monkeys.",
+          "Sufficient patience and lab time for slow rolling.",
+          "Homogenous material of purity > .9999 and uniform thickness to within one monkey.",
+          "The fortitude to withstand the wailing of entire monkey populations without being tempted to mercy."
+        ]
+      }
+    ]
+}
